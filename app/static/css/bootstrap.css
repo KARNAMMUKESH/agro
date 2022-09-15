@@ -479,8 +479,10 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height:auto;
+  
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -602,7 +604,12 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-
+.n1-change{
+  margin-left: 360px;
+}
+.n2{
+  margin-left: -400px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -3972,6 +3979,13 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+}
+
+.n3-change{
+  width: 100px;
+  height: 70px;
+  border-radius: 15px;
+  
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -8560,6 +8574,7 @@ button.bg-dark:focus {
     margin-bottom: 1.5rem !important;
   }
   .ml-xl-4,
+  
   .mx-xl-4 {
     margin-left: 1.5rem !important;
   }
@@ -8972,4 +8987,6 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important;
   }
 }
+
+
 /*# sourceMappingURL=bootstrap.css.map */
